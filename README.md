@@ -4,7 +4,8 @@
 Este projeto é o segundo desafio da Plataforma DIO - é uma **Calculadora de Partidas Rankeadas** em **JavaScript**, que avalia o desempenho 
 de um jogador baseado na quantidade de vitórias e derrotas e retorna seu **nível no ranking**.  
 
-O saldo de partidas é calculado como:: saldo = vitórias - derrotas
+O saldo de partidas é calculado como: saldo = vitórias - derrotas.
+
 Com base no número de vitórias, o jogador recebe um nível correspondente:
 
 - Vitórias < 10 → **Ferro**
