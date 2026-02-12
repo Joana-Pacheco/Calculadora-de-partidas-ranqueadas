@@ -1,24 +1,30 @@
-// definir a função 
-function ClassificarHeroi (vitorias,derrotas) {
-// retornar o resultado 
-  return vitorias - derrotas; 
-  let saldoFinal =  "vitorias - derrotas"
-  let nivel
+// Definir a função
+function classificarHeroi(vitorias, derrotas) {
+
+let saldoFinal = vitorias - derrotas;
+let nivel;
+
+// Estrutura de decisão
+if (vitorias <= 10) {
+    nivel = "Ferro";
+} else if (vitorias <= 20) {
+     nivel = "Bronze";
+} else if (vitorias <= 50) {
+    nivel = "Prata";
+} else if (vitorias <= 80) {
+    nivel = "Ouro";
+} else if (vitorias <= 90) {
+    nivel = "Diamante";
+} else if (vitorias <= 100) {
+    nivel = "Lendário";
+} else {
+    nivel = "Imortal";
 }
 
-//estrutura de repetição
-if (vitorias <=10) {
-    nivel = "Ferro" ;
-} if else (vitorias <=20) {
-    nivel = "Bronze";
-} if else (vitorias <=50)
-    nível = "Prata"; {
-} if else (vitorias <=80)
-    nível = "Ouro"; {
-{ if else (vitorias <=90)
-    nível = "diamante"; {
-{if else (vitorias <=100) 
-    nível = Lendário"; {
-{else  {
-    nível "imortal"
-}   
+return `O Herói tem de saldo de ${saldoFinal} está no nível de ${nivel}`;
+}
+
+// Testando a função
+
+let resultado = classificarHeroi(85, 20);
+console.log(resultado);
