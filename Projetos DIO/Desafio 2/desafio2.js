@@ -21,7 +21,7 @@ if (vitorias <= 10) {
     nivel = "Imortal";
 }
 
-return `O Herói tem de saldo de ${saldoFinal} está no nível de ${nivel}`;
+return `O Herói tem de saldo ${saldoFinal} e está no nível ${nivel}`;
 }
 
 // Testando a função
