@@ -18,3 +18,15 @@ Com base no número de vitórias, o jogador recebe um nível correspondente:
 
 Ao final, o programa exibe a seguinte mensagem:
 O Herói tem de saldo de {saldoVitorias} está no nível de {nivel}
+
+## Tecnologias Utilizadas
+
+- JavaScript (Node.js)
+- Conceitos de programação básica:
+  - Variáveis
+  - Operadores
+  - Laços de repetição
+  - Estruturas de decisão
+  - Funções
+ 
+    
